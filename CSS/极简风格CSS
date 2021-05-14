@@ -1,0 +1,85 @@
+/*-------下边CSS出处为 https://zhuanlan.zhihu.com/p/364802645-------*/
+/*-------下边CSS版本20210414204026-------*/
+/*-------顶部部分-------*/
+/*-------缩小画面时的左上角图标-------*/
+.ls-closed .bars:before {
+    color: #707070;
+}
+/*去除顶框阴影-调整为20%可加上*/
+.navbar {
+    box-shadow: 0 1px 5px rgb(0 0 0 / 0%);
+    box-shadow: -4px -20px 5px rgb(0 0 0 / 20%);
+}
+
+/*-------标志部分-------*/
+/*去掉先行者标识*/
+.theme-orange .navbar-brand{
+    width: 0px;
+    heigth: 0px;
+}
+.theme-orange .navbar-header {
+    background: #ffffff;
+    width: 15px;
+    height: 30px;
+}
+.theme-orange .navbar-brand{
+    color: #fff;
+    font-weight: 700;
+}
+#detail-wrap .block-header {
+padding-top: 0px;
+}
+/*背景边框-颜色灰色改为白色*/
+body {
+    background-color: #fff;
+}
+
+/*-------左边框部分-------*/
+/*压缩左上角库提示区范围-上下边框*/
+.sidebar .menu .list .header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*压缩左上角库提示区范围-···图标挪动*/
+.menu .list li.header .addon-btn{
+top: 5px;
+}
+/*改变左上角库提示文字颜色-改为灰色*/
+.zmdi-more-vert:before{
+color: #acacac;
+}
+/*左侧上半部分-背景色*/
+.sidebar .menu .list{
+background-color: white;
+}
+/*改变左上角库提示区范围-···图标颜色*/
+.sidebar .menu .list .header {
+    border-bottom: 0px solid #ddd;
+    color: #909090;
+}
+
+/*压缩左上角库提示区范围-去掉下划线-改变背景色为白*/
+.sidebar .menu .list .header{
+    background-color: #fff;
+border-bottom: 1px solid #ddd;
+}
+
+/*左侧框阴影调整-调整为5%可加上*/
+.sidebar {
+box-shadow: 3px 3px 20px 0px rgb(0 0 0 / 7%);
+}
+
+/*左侧框分割线-取消了左侧框分割线*/
+.sidebar .menu .list a {   
+ border-bottom: 0px solid #efefef;
+}
+/*左侧框上半部分-文字颜色-变灰-取消了左侧框分割线*/
+.sidebar .menu .list a {
+    color: #909090;
+}
+/*-------右侧边栏部分-------*/
+/*右侧边栏部分-*/
+#roam-right-wrap {
+    box-shadow: -3px -3px 20px 0px rgb(0 0 0 / 7%);
+    border-radius: 0px;
+}
